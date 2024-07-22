@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Project CRM AT06 by HienPham" verbose="1">
+
+    <test name="ProjectCRM_AT06">
+        <classes>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.CustomerTest"/>
+            <class name="testcases.ProjectsTest"/>
+            <class name="testcases.TasksTest"/>
+        </classes>
+    </test>
+
+</suite>
